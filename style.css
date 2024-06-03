@@ -1,0 +1,174 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#hero{
+    display: flex;
+    width: 100%;
+   
+}
+nav{
+    display: flex;
+    list-style: none;
+    font-family: "Familjen Grotesk", sans-serif;
+    justify-content: space-between;
+    font-size: x-large;
+    transition: all ease-in-out 0.3s;
+    }
+
+    nav li:hover{
+    color: #FF5555;
+}
+#headline{
+    width: 50%;
+}
+
+#headline img:nth-child(n+3){
+    width: 100%;
+}
+#headline h1{
+    font-weight: 700;
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: xxx-large;
+}
+#headline img:nth-child(2){
+    width: 50%;
+
+}
+#iphone{
+    display: flex;
+    position: relative;
+    width: 65%;
+    
+}
+#iphone img:nth-child(n+2){
+  position: absolute;
+  
+}
+#iphone img:nth-child(2){
+    top: 120px;
+    left: 180px;
+    filter: drop-shadow(-5rem 3rem 4rem crimson);
+    height: 90%;
+}
+#iphone img:nth-child(3){
+    left: 90px;
+    top: 60px;
+    height: 90%;
+}
+#iphone img:nth-child(4){
+    
+    height: 90%;
+}
+.features{
+    display: flex;
+    align-items: center;
+
+
+}
+.feature{
+    position: relative;
+    display: flex;
+    
+}
+.feature img:nth-child(2){
+    position: absolute;
+    rotate: 15deg;
+    left: 18%;
+    top: 5%;
+    filter: drop-shadow(-2rem 2rem 2rem #FF5555) drop-shadow(-3rem 0rem 3rem #FDE598) ;
+}
+.feature_deets{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#footer_tag{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.footer{
+    font-weight: 500;
+    font-family: "Familjen Grotesk", sans-serif; 
+}
+footer input{
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+ button{
+    background-color: black;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+
+
+}
+ button:hover{
+    background-color: #FF5555;
+}
+#question{
+    padding-left: 10rem;
+}
+#question img{
+width: 40%;
+
+}
+#subscription{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+   
+    
+}
+#testimonial{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Responsive Css */
+
+@media screen and (orientation:portrait) {
+
+    
+.features{
+   width: 22rem;
+}
+.feature_deets{
+    width: 95%;
+}
+#headline{
+    width: 100%;
+}
+#headline img:nth-child(2) {
+    width: 70%;
+}
+#footer_tag{
+width: 63rem;  
+}
+#subscription{
+    width: 67rem;
+}
+#question{
+    width: 70rem;
+
+}
+#testimonial{
+    width: 67rem;
+}
+#testimonial img:nth-child(2){
+
+    width: 60rem;
+}
+#hero{
+    width: 67rem;
+}
+nav{
+    width: 67rem;
+}
+}
