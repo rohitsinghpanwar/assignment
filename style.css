@@ -157,19 +157,24 @@ nav button{
 footer{
     font-size: 6px;
 }
-footer img{
+footer img:nth-child(1){
     width: 20%;
+}
+footer img:nth-child(2){
+   width: 100%;
 }
 footer input{
     width: 40%;
-    height: 10px;
-    font-size: 5px;
+    height: 15%;
+    font-size: 6px;
+    text-align: center;
 
 }
 footer button{
     width: 30%;
-    height: 12px;
-    font-size: 5px;
+    height: 20%;
+    font-size: 6px;
+    text-align: center;
 }
 #subscription img{
     width: 90%;
